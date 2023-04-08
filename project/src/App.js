@@ -1,20 +1,27 @@
-import { BrowserRouter as Router , Routes , Route} from "react-router-dom";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Home from "./Pages/Home";
-import Contact from "./Pages/Contact";
+import Jumbo from './components/Jumbo';
+import Cards from './components/Cards';
+
 
 function App() {
   return (
     <>
-    <Router>
-      <Routes>
-      <Route exact path="/" element={<Home/>} />
-      <Route exact path="/contact" element={<Contact/>} />
-      </Routes>
-    </Router>
+    <div style={{margin: "50px"}}>     
+      <Jumbo/>
+    </div>
+    
+    <div style={{margin: "50px",display: "flex"}}>
+        <Cards/>
+        <Cards/>
+        <Cards/>
+        <Cards/>
+    </div>
+   
+    
     </>
-  );
+    )
 }
 
 export default App;
