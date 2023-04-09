@@ -2,14 +2,22 @@
   background-color: grey;
 }
 
+.navbar-brand{
+  color: white;
+}
+
+.jumbotron{
+  background-color: rgb(240, 240, 240);
+}
 .Copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: grey;
-  margin-bottom: "30px";
-  margin-top: "30px";
-  margin: "10px" 
-  
+  height: 100px;
 }
 
 .textC{
-  text-decoration-color: white;
+  color: white;
+  text-align: center;
 }

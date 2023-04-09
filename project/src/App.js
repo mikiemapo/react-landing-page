@@ -14,22 +14,26 @@ function App() {
     <>
       <div>
 
-        <div style={{ margin: "10px" }}>
+        <div>
           <Navbar />
         </div>
 
-        <div style={{ margin: "50px", marginBottom: "150px" }}>
-          <Jumbo />
+
+        <div style={{margin: "50px"}}>
+              <div>
+                <Jumbo />
+              </div>
+
+              <div style={{display: "flex" }}>
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+              </div>
         </div>
 
-        <div style={{ margin: "50px", display: "flex" }}>
-          <Cards />
-          <Cards />
-          <Cards />
-          <Cards />
-        </div>
 
-        <div style={{textAlign: 'center' }}>
+        <div>
           <Copyright />
         </div>
 
