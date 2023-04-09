@@ -30,6 +30,7 @@ function App() {
                 <Cards />
                 <Cards />
               </div>
+              
         </div>
 
 

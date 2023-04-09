@@ -6,6 +6,10 @@
   color: white;
 }
 
+.navbar-nav{
+  margin-left: 1000px;
+}
+
 .jumbotron{
   background-color: rgb(240, 240, 240);
 }
